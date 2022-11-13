@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>721</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(149, 149, 149);</string>
+   </property>
+   <widget class="QPushButton" name="google">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color:#0F9D58;
+		   color: #0F9D58; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Google</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="twitter">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #1DA1F2;
+		   color: #1DA1F2; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Twitter</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>221</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 38pt &quot;Luminari&quot;;
+color: rgb(218, 218, 218);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>saboo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reddit">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>310</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #FF5700;
+		   color: #FF5700; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Reddit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="youtube">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #FF0000;
+		   color: #FF0000; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Youtube</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="instagram">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>310</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #C13584;
+		   color: #C13584; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Instagram</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="facebook">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color:#4267B2;
+		   color: #4267B2; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Facebook</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="twitch">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>420</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #6441a5;
+		   color: #6441a5; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Twitch</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="netflix">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>420</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: rgb(0, 0, 0);
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #E50914;
+		   color: #E50914; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Netflix</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="amazon">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>420</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            background-color: black;
+color: rgb(228, 228, 228);
+border-color: black;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+font: 10pt &quot;Luminari&quot;;
+        }
+        QPushButton:hover {
+           border-color: #FF9900;
+		   color: white; 
+		   
+			background-color: black;
+		   border-width: 2px;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Amazon</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt &quot;Luminari&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Please select the website you want to go to</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>270</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>twitter.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>google.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>160</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>facebook.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>160</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>youtube.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>instagram.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>380</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>netflix.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>380</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>amazon.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>270</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>reddit.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>380</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>twitch.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
